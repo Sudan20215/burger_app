@@ -1,0 +1,8 @@
+<div class="d-flex justify-content-between">
+	<h6>{{burger_name}}</h6>
+	{{#if devoured}}
+	<button class="change-devoured btn btn-secondary" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		Devour it!
+	</button>
+	{{/if}}
+</div>
